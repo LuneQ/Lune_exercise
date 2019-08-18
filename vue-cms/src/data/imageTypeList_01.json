@@ -1,0 +1,64 @@
+{
+  "imageList":[
+    {
+      "pid":1,
+      "name":"狮子座狮子守护色 19支",
+      "url":"src/images/p1.png",
+      "price":1999
+    },
+    {
+      "pid":2,
+      "name":"小经典 朱砂 19支 40cm",
+      "url":"src/images/p2.png",
+      "price":1520
+    },
+    {
+      "pid":3,
+      "name":"手捧朱砂 520支 80cm",
+      "url":"src/images/p3.png",
+      "price":19999
+    },
+    {
+      "pid":4,
+      "name":"手捧许愿 520支 80cm",
+      "url":"src/images/p4.png",
+      "price":29999
+    },
+    {
+      "pid":5,
+      "name":"小经典情动 19支",
+      "url":"src/images/p5.png",
+      "price":1520
+    },
+    {
+      "pid":6,
+      "name":"经典惊艳 11支 80cm",
+      "url":"src/images/p6.png",
+      "price":1520
+    },
+    {
+      "pid":7,
+      "name":"水晶许愿 16支 80cm方形",
+      "url":"src/images/p7.png",
+      "price":2999
+    },
+    {
+      "pid":8,
+      "name":"水晶情动 16支 80cm",
+      "url":"src/images/p8.png",
+      "price":1999
+    },
+    {
+      "pid":9,
+      "name":"花篮朱砂 圆桶 50支",
+      "url":"src/images/p9.png",
+      "price":1999
+    },
+    {
+      "pid":10,
+      "name":"永恒的爱粉色 郁金香 50支",
+      "url":"src/images/p10.png",
+      "price":1999
+    }
+  ]
+}

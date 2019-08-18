@@ -1,0 +1,372 @@
+{
+  "thunbnail":[
+    {"src":"src/images/t1.png"},
+    {"src":"src/images/t2.png"},
+    {"src":"src/images/t3.png"},
+    {"src":"src/images/t4.png"},
+    {"src":"src/images/t5.png"}
+  ],
+  "products":[
+    {
+      "pid":1,
+      "name":"狮子座狮子守护色 19支",
+      "url":"src/images/p1.png",
+      "price":1999,
+      "click":23,
+      "detailImage":["src/images/p1-1.png","src/images/p1-2.png","src/images/p1-3.png"],
+      "stock":999
+    },
+    {
+      "pid":2,
+      "name":"小经典 朱砂 19支 40cm",
+      "url":"src/images/p2.png",
+      "price":1520,
+      "click":5,
+      "detailImage":["src/images/p2-1.png","src/images/p2-2.png","src/images/p2-3.png"],
+      "stock":999
+    },
+    {
+      "pid":3,
+      "name":"手捧朱砂 520支 80cm",
+      "url":"src/images/p3.png",
+      "price":19999,
+      "click":5,
+      "detailImage":["src/images/p3-1.png","src/images/p3-2.png","src/images/p3-3.png"],
+      "stock":999
+    },
+    {
+      "pid":4,
+      "name":"手捧许愿 520支 80cm",
+      "url":"src/images/p4.png",
+      "price":29999,
+      "click":17,
+      "detailImage":["src/images/p4-1.png","src/images/p4-2.png","src/images/p4-3.png"],
+      "stock":999
+    },
+    {
+      "pid":5,
+      "name":"小经典情动 19支",
+      "url":"src/images/p5.png",
+      "price":1520,
+      "click":5,
+      "detailImage":["src/images/p5-1.png","src/images/p5-2.png","src/images/p5-3.png"],
+      "stock":999
+    },
+    {
+      "pid":6,
+      "name":"经典惊艳 11支 80cm",
+      "url":"src/images/p6.png",
+      "price":1520,
+      "click":5,
+      "detailImage":["src/images/p6-1.png","src/images/p6-2.png","src/images/p6-3.png"],
+      "stock":999
+    },
+    {
+      "pid":7,
+      "name":"水晶许愿 16支 80cm方形",
+      "url":"src/images/p7.png",
+      "price":2999,
+      "click":15,
+      "detailImage":["src/images/p7-1.png","src/images/p7-2.png","src/images/p7-3.png"],
+      "stock":999
+    },
+    {
+      "pid":8,
+      "name":"水晶情动 16支 80cm",
+      "url":"src/images/p8.png",
+      "price":1999,
+      "click":5,
+      "detailImage":["src/images/p8-1.png","src/images/p8-2.png","src/images/p8-3.png"],
+      "stock":999
+    },
+    {
+      "pid":9,
+      "name":"花篮朱砂 圆桶 50支",
+      "url":"src/images/p9.png",
+      "price":1999,
+      "click":5,
+      "detailImage":["src/images/p9-1.png","src/images/p9-2.png","src/images/p9-3.png"],
+      "stock":999
+    },
+    {
+      "pid":10,
+      "name":"永恒的爱粉色 郁金香 50支",
+      "url":"src/images/p10.png",
+      "price":1999,
+      "click":25,
+      "detailImage":["src/images/p10-1.png","src/images/p10-2.png","src/images/p10-3.png"],
+      "stock":999
+    },
+    {
+      "pid":11,
+      "name":"留声机嫣红 盛开版 大型方形",
+      "url":"src/images/p11.png",
+      "price":6999,
+      "click":8,
+      "detailImage":["src/images/p11-1.png","src/images/p11-2.png","src/images/p11-3.png"],
+      "stock":999
+    },
+    {
+      "pid":12,
+      "name":"甜心狗嫣红 灰色端坐版 70cm",
+      "url":"src/images/p12.png",
+      "price":15999,
+      "click":33,
+      "detailImage":["src/images/p12-1.png","src/images/p12-2.png","src/images/p12-3.png"],
+      "stock":999
+    },
+    {
+      "pid":13,
+      "name":"礼物兔嫣红 钟罩",
+      "url":"src/images/p13.png",
+      "price":12999,
+      "click":8,
+      "detailImage":["src/images/p13-1.png","src/images/p13-2.png","src/images/p13-3.png"],
+      "stock":999
+    },
+    {
+      "pid":14,
+      "name":"礼物熊嫣红 钟罩",
+      "url":"src/images/p14.png",
+      "price":12999,
+      "click":8,
+      "detailImage":["src/images/p14-1.png","src/images/p14-2.png","src/images/p14-3.png"],
+      "stock":999
+    },
+    {
+      "pid":15,
+      "name":"经典心嫣红 大型",
+      "url":"src/images/p15.png",
+      "price":4999,
+      "click":19,
+      "detailImage":["src/images/p15-1.png","src/images/p15-2.png","src/images/p15-3.png"],
+      "stock":999
+    },
+    {
+      "pid":16,
+      "name":"让爱定格 相框",
+      "url":"src/images/p16.png",
+      "price":1314,
+      "click":8,
+      "detailImage":["src/images/p16-1.png","src/images/p16-2.png","src/images/p16-3.png"],
+      "stock":999
+    },
+    {
+      "pid":17,
+      "name":"心花绽放红粉 巨型",
+      "url":"src/images/p17.png",
+      "price":2999,
+      "click":8,
+      "detailImage":["src/images/p17-1.png","src/images/p17-2.png","src/images/p17-3.png"],
+      "stock":999
+    },
+    {
+      "pid":18,
+      "name":"love letter嫣红 大型",
+      "url":"src/images/p18.png",
+      "price":2999,
+      "click":28,
+      "detailImage":["src/images/p18-1.png","src/images/p18-2.png","src/images/p18-3.png"],
+      "stock":999
+    },
+    {
+      "pid":19,
+      "name":"星座嫣红 单朵版 中型水滴",
+      "url":"src/images/p19.png",
+      "price":1314,
+      "click":8,
+      "detailImage":["src/images/p19-1.png","src/images/p19-2.png","src/images/p19-3.png"],
+      "stock":999
+    },
+    {
+      "pid":20,
+      "name":"甜心熊焕蓝 中型公仔",
+      "url":"src/images/p20.png",
+      "price":1999,
+      "click":8,
+      "detailImage":["src/images/p20-1.png","src/images/p20-2.png","src/images/p20-3.png"],
+      "stock":999
+    },
+    {
+      "pid":21,
+      "name":"钥匙 吊坠",
+      "url":"src/images/p21.png",
+      "price":1999,
+      "click":8,
+      "detailImage":["src/images/p21-1.png","src/images/p21-2.png","src/images/p21-3.png"],
+      "stock":999
+    },
+    {
+      "pid":22,
+      "name":"流苏 吊坠",
+      "url":"src/images/p22.png",
+      "price":2399,
+      "click":8,
+      "detailImage":["src/images/p22-1.png","src/images/p22-2.png","src/images/p22-3.png"],
+      "stock":999
+    },
+    {
+      "pid":23,
+      "name":"锁骨链 项链",
+      "url":"src/images/p23.png",
+      "price":1999,
+      "click":8,
+      "detailImage":["src/images/p23-1.png","src/images/p23-2.png","src/images/p23-3.png"],
+      "stock":999
+    },
+    {
+      "pid":24,
+      "name":"金牛座 镂空玫瑰 中型项链",
+      "url":"src/images/p24.png",
+      "price":4399,
+      "click":5,
+      "click":7,
+      "detailImage":["src/images/p24-1.png","src/images/p24-2.png","src/images/p24-3.png"],
+      "stock":999
+    },
+    {
+      "pid":25,
+      "name":"白羊座 镂空 中型耳钉",
+      "url":"src/images/p25.png",
+      "price":2999,
+      "click":13,
+      "detailImage":["src/images/p25-1.png","src/images/p25-2.png","src/images/p25-3.png"],
+      "stock":999
+    },
+    {
+      "pid":26,
+      "name":"海王星-星环 中型项链",
+      "url":"src/images/p26.png",
+      "price":2999,
+      "click":3,
+      "detailImage":["src/images/p26-1.png","src/images/p26-2.png","src/images/p26-3.png"],
+      "stock":999
+    },
+    {
+      "pid":27,
+      "name":"永恒 双结礼物盒 中型项链",
+      "url":"src/images/p27.png",
+      "price":7999,
+      "click":3,
+      "detailImage":["src/images/p27-1.png","src/images/p27-2.png"],
+      "stock":999
+    },
+    {
+      "pid":28,
+      "name":"永恒 双结礼物盒 中型耳饰",
+      "url":"src/images/p28.png",
+      "price":12999,
+      "click":3,
+      "detailImage":["src/images/p28-1.png","src/images/p28-2.png","src/images/p28-3.png"],
+      "stock":999
+    },
+    {
+      "pid":29,
+      "name":"甜心狗 项链",
+      "url":"src/images/p29.png",
+      "price":3999,
+      "click":3,
+      "detailImage":["src/images/p29-1.png","src/images/p29-2.png","src/images/p29-3.png"],
+      "stock":999
+    },
+    {
+      "pid":30,
+      "name":"甜心狗 手链",
+      "url":"src/images/p30.png",
+      "price":3999,
+      "click":3,
+      "detailImage":["src/images/p30-1.png","src/images/p30-2.png","src/images/p30-3.png"],
+      "stock":999
+    },
+    {
+      "pid":31,
+      "name":"项圈狗925银 中型手链与耳饰",
+      "url":"src/images/p31.png",
+      "price":1520,
+      "click":17,
+      "detailImage":["src/images/p31-1.png","src/images/p31-2.png","src/images/p31-3.png"],
+      "stock":999
+    },
+    {
+      "pid":32,
+      "name":"项圈狗925银 粉珐琅 中型手链与耳饰",
+      "url":"src/images/p32.png",
+      "price":1520,
+      "click":7,
+      "detailImage":["src/images/p32-1.png","src/images/p32-2.png","src/images/p32-3.png"],
+      "stock":999
+    },
+    {
+      "pid":33,
+      "name":"爱之礼赞 红珐琅 中型手链",
+      "url":"src/images/p33.png",
+      "price":1314,
+      "click":7,
+      "detailImage":["src/images/p33-1.png","src/images/p33-2.png"],
+      "stock":999
+    },
+    {
+      "pid":34,
+      "name":"爱之礼赞 粉珐琅 中型手链",
+      "url":"src/images/p34.png",
+      "price":1314,
+      "click":7,
+      "detailImage":["src/images/p34-1.png","src/images/p34-2.png"],
+      "stock":999
+    },
+    {
+      "pid":35,
+      "name":"爱之礼赞 紫珐琅 中型耳饰",
+      "url":"src/images/p35.png",
+      "price":1999,
+      "click":7,
+      "detailImage":["src/images/p35-1.png","src/images/p35-2.png"],
+      "stock":999
+    },
+    {
+      "pid":36,
+      "name":"爱之礼赞 红珐琅 中型耳饰",
+      "url":"src/images/p36.png",
+      "price":1999,
+      "click":7,
+      "detailImage":["src/images/p36-1.png","src/images/p36-2.png"],
+      "stock":999
+    },
+    {
+      "pid":37,
+      "name":"项圈狗 粉珐琅 中型手链",
+      "url":"src/images/p37.png",
+      "price":1999,
+      "click":6,
+      "detailImage":["src/images/p37-1.png","src/images/p37-2.png","src/images/p37-3.png"],
+      "stock":999
+    },
+    {
+      "pid":38,
+      "name":"项圈狗 红珐琅 中型耳饰",
+      "url":"src/images/p38.png",
+      "price":1999,
+      "click":16,
+      "detailImage":["src/images/p38-1.png","src/images/p38-2.png","src/images/p38-3.png"],
+      "stock":999
+    },
+    {
+      "pid":39,
+      "name":"爱之礼赞 粉珐琅 中型项链",
+      "url":"src/images/p39.png",
+      "price":1314,
+      "click":6,
+      "detailImage":["src/images/p39-1.png","src/images/p39-2.png","src/images/p39-3.png"],
+      "stock":999
+    },
+    {
+      "pid":40,
+      "name":"爱之礼赞 蓝珐琅 中型耳饰",
+      "url":"src/images/p40.png",
+      "price":999,
+      "click":6,
+      "detailImage":["src/images/p40-1.png","src/images/p40-2.png"],
+      "stock":999
+    }
+  ]
+}

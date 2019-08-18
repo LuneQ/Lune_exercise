@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/components/goodsList/goodsInfo.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/goodsList/goodsList.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/news/NewsInfo.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/news/NewsList.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/photo/photoInfo.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/photo/photoList.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/subComments/comments.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/subComments/goodsInfo_numberbox.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/tabbar/CartContainer.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/tabbar/HomeContainer.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/tabbar/MemberContainer.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/tabbar/SearchContainer.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/data/imageType.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/data/product.json" charset="UTF-8" />
+  </component>
+</project>

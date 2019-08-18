@@ -1,0 +1,14 @@
+.imgPrev figure {
+    float: left;
+    width: 30%;
+    height:calc(30vw - 0px);
+    margin: 1.5%;
+    background:orange;
+}
+
+.imgPrev figure img {
+    width: 100%;
+}
+br{
+    clear: both;
+}
