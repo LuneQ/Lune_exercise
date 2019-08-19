@@ -1,5 +1,13 @@
 <template>
     <div class="goodsInfo">
+        <!-- 小球-->
+        <transition
+                v-on:before-enter="beforeEnter"
+                v-on:enter="enter"
+                v-on:after-enter="afterEnter"
+         >
+            <div class="ball" v-show="ballFlag"></div>
+        </transition>
         <!--商品轮播图区域-->
         <div class="mui-card">
             <div class="mui-card-content">
@@ -18,7 +26,7 @@
                     <numberBox></numberBox>
                     <div class="btn">
                         <mt-button  size="small" class="soonBuy">立即购买</mt-button>
-                        <mt-button  size="small" class="addCart">加入购物车</mt-button>
+                        <mt-button  size="small" class="addCart" @click="addCart">加入购物车</mt-button>
                     </div>
                 </div>
             </div>
@@ -34,7 +42,7 @@
                     <p>上架时间：2019-08-13</p>
                 </div>
             </div>
-            <div class="mui-card-footer">页脚</div>
+            <!--<div class="mui-card-footer">页脚</div>-->
         </div>
     </div>
 </template>
@@ -48,7 +56,8 @@
                 pid:parseInt(this.$route.params.pid)-1,
                 msg:'',
                 detailImg:[],
-                height100P:true
+                height100P:true,
+                ballFlag:false //控制小球的隐藏和显示标识符
             }
         },
         created:function(){
@@ -66,6 +75,21 @@
                     })
                     console.log(this.detailImg)
                 })
+            },
+            addCart:function(){
+                this.ballFlag = !this.ballFlag
+            },
+            beforeEnter:function(el){
+                el.style.transform = "translate(0,0)"
+            },
+            enter:function(el,done){
+                el.offsetWidth;
+                el.style.transform = "translate(100px,300px)";
+                el.style.transition = "all 1s ease"
+                done();//意味着要执行afterEnter函数
+            },
+            afterEnter:function(el){
+                this.ballFlag = !this.ballFlag;
             }
         },
         components:{
@@ -103,5 +127,15 @@
     .addCart{
         color: #414141;
         background: #ffffff ;
+    }
+    .ball{
+        width:20px;
+        height: 20px;
+        background: red;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 99;
+        top: 386px;
+        left: 158px;
     }
 </style>
