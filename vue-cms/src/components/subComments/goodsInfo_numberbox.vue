@@ -1,7 +1,7 @@
 <template>
         <div class="mui-numbox" data-numbox-min='1'>
             <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-            <input id="test" class="mui-input-numbox" type="number" value="1" />
+            <input id="test" class="mui-input-numbox" type="number" value="1" @change="countChanged" ref="numBox"/>
             <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
         </div>
 </template>
@@ -11,6 +11,11 @@
     export default {
         mounted:function(){
             mui(".mui-numbox").numbox()
+        },
+        methods:{
+            countChanged:function(){
+                this.$emit("getCount",parseInt(this.$refs.numBox.value))
+            }
         }
     }
 </script>

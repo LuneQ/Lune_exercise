@@ -6,7 +6,7 @@
                 v-on:enter="enter"
                 v-on:after-enter="afterEnter"
          >
-            <div class="ball" v-show="ballFlag"></div>
+            <div class="ball" v-show="ballFlag" ref="ball"></div>
         </transition>
         <!--商品轮播图区域-->
         <div class="mui-card">
@@ -23,7 +23,7 @@
                 <div class="mui-card-content-inner">
                     <p class="price">价格：{{msg.price}}</p>
                     <span class="buyCount">购买数量：</span>
-                    <numberBox></numberBox>
+                    <numberBox v-on:getCount="getSelectedCount"></numberBox>
                     <div class="btn">
                         <mt-button  size="small" class="soonBuy">立即购买</mt-button>
                         <mt-button  size="small" class="addCart" @click="addCart">加入购物车</mt-button>
@@ -57,7 +57,8 @@
                 msg:'',
                 detailImg:[],
                 height100P:true,
-                ballFlag:false //控制小球的隐藏和显示标识符
+                ballFlag:false, //控制小球的隐藏和显示标识符
+                selectedCount:1//用户选中的商品的数量
             }
         },
         created:function(){
@@ -84,12 +85,25 @@
             },
             enter:function(el,done){
                 el.offsetWidth;
-                el.style.transform = "translate(100px,300px)";
+                //获取小球在页面中的位置
+                const ballPosition = this.$refs.ball.getBoundingClientRect();
+                //获取购物车徽标的位置
+                const badgePosition = document.getElementById('badge').getBoundingClientRect();
+                //获得小球位移的位置
+                const xDistance = badgePosition.left - ballPosition.left;
+                const yDistance = badgePosition.top - ballPosition.top;
+                //el.style.transform = "translate(100px,300px)";
+                //el.style.transform = "translate("+xDistance+","+yDistance+")";
+                el.style.transform = `translate(${xDistance}px,${yDistance}px)`;
                 el.style.transition = "all 1s ease"
                 done();//意味着要执行afterEnter函数
             },
             afterEnter:function(el){
                 this.ballFlag = !this.ballFlag;
+            },
+            getSelectedCount:function(count){
+                this.selectedCount = count;
+                console.log(count)
             }
         },
         components:{
