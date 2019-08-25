@@ -19,7 +19,7 @@
                 <p class="price">￥{{item.price}}</p>
                 <p class="sell">
                     <span>热卖中</span>
-                    <span>剩50件</span>
+                    <span>剩{{item.stock}}件</span>
                 </p>
             </div>
         </div>
@@ -77,6 +77,7 @@
         font-size: 14px;
         padding: 0 5px;
         font-weight: bold;
+        height: 42px;
     }
     .info{
         background: #eee;

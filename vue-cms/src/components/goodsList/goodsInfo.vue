@@ -23,7 +23,7 @@
                 <div class="mui-card-content-inner">
                     <p class="price">价格：{{msg.price}}</p>
                     <span class="buyCount">购买数量：</span>
-                    <numberBox v-on:getCount="getSelectedCount"></numberBox>
+                    <numberBox v-on:getCount="getSelectedCount" :maxNumber="msg.stock"></numberBox>
                     <div class="btn">
                         <mt-button  size="small" class="soonBuy">立即购买</mt-button>
                         <mt-button  size="small" class="addCart" @click="addCart">加入购物车</mt-button>
@@ -101,11 +101,13 @@
             afterEnter:function(el){
                 this.ballFlag = !this.ballFlag;
             },
+            //获得选中的数量
             getSelectedCount:function(count){
                 this.selectedCount = count;
-                console.log(count)
+                //console.log(count)
             }
         },
+
         components:{
             swiper:swiper,
             numberBox:numberBox

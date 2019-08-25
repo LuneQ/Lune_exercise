@@ -14,7 +14,7 @@
       "price":1999,
       "click":23,
       "detailImage":["src/images/p1-1.png","src/images/p1-2.png","src/images/p1-3.png"],
-      "stock":999
+      "stock":20
     },
     {
       "pid":2,
@@ -23,7 +23,7 @@
       "price":1520,
       "click":5,
       "detailImage":["src/images/p2-1.png","src/images/p2-2.png","src/images/p2-3.png"],
-      "stock":999
+      "stock":99
     },
     {
       "pid":3,
@@ -32,7 +32,7 @@
       "price":19999,
       "click":5,
       "detailImage":["src/images/p3-1.png","src/images/p3-2.png","src/images/p3-3.png"],
-      "stock":999
+      "stock":97
     },
     {
       "pid":4,
@@ -41,7 +41,7 @@
       "price":29999,
       "click":17,
       "detailImage":["src/images/p4-1.png","src/images/p4-2.png","src/images/p4-3.png"],
-      "stock":999
+      "stock":54
     },
     {
       "pid":5,
@@ -50,7 +50,7 @@
       "price":1520,
       "click":5,
       "detailImage":["src/images/p5-1.png","src/images/p5-2.png","src/images/p5-3.png"],
-      "stock":999
+      "stock":66
     },
     {
       "pid":6,
@@ -59,7 +59,7 @@
       "price":1520,
       "click":5,
       "detailImage":["src/images/p6-1.png","src/images/p6-2.png","src/images/p6-3.png"],
-      "stock":999
+      "stock":32
     },
     {
       "pid":7,
@@ -68,7 +68,7 @@
       "price":2999,
       "click":15,
       "detailImage":["src/images/p7-1.png","src/images/p7-2.png","src/images/p7-3.png"],
-      "stock":999
+      "stock":45
     },
     {
       "pid":8,
@@ -77,7 +77,7 @@
       "price":1999,
       "click":5,
       "detailImage":["src/images/p8-1.png","src/images/p8-2.png","src/images/p8-3.png"],
-      "stock":999
+      "stock":69
     },
     {
       "pid":9,
@@ -86,7 +86,7 @@
       "price":1999,
       "click":5,
       "detailImage":["src/images/p9-1.png","src/images/p9-2.png","src/images/p9-3.png"],
-      "stock":999
+      "stock":22
     },
     {
       "pid":10,
@@ -95,7 +95,7 @@
       "price":1999,
       "click":25,
       "detailImage":["src/images/p10-1.png","src/images/p10-2.png","src/images/p10-3.png"],
-      "stock":999
+      "stock":5
     },
     {
       "pid":11,
@@ -104,7 +104,7 @@
       "price":6999,
       "click":8,
       "detailImage":["src/images/p11-1.png","src/images/p11-2.png","src/images/p11-3.png"],
-      "stock":999
+      "stock":12
     },
     {
       "pid":12,
@@ -113,7 +113,7 @@
       "price":15999,
       "click":33,
       "detailImage":["src/images/p12-1.png","src/images/p12-2.png","src/images/p12-3.png"],
-      "stock":999
+      "stock":14
     },
     {
       "pid":13,
@@ -122,7 +122,7 @@
       "price":12999,
       "click":8,
       "detailImage":["src/images/p13-1.png","src/images/p13-2.png","src/images/p13-3.png"],
-      "stock":999
+      "stock":33
     },
     {
       "pid":14,
@@ -131,7 +131,7 @@
       "price":12999,
       "click":8,
       "detailImage":["src/images/p14-1.png","src/images/p14-2.png","src/images/p14-3.png"],
-      "stock":999
+      "stock":42
     },
     {
       "pid":15,
@@ -140,7 +140,7 @@
       "price":4999,
       "click":19,
       "detailImage":["src/images/p15-1.png","src/images/p15-2.png","src/images/p15-3.png"],
-      "stock":999
+      "stock":59
     },
     {
       "pid":16,
@@ -149,7 +149,7 @@
       "price":1314,
       "click":8,
       "detailImage":["src/images/p16-1.png","src/images/p16-2.png","src/images/p16-3.png"],
-      "stock":999
+      "stock":63
     },
     {
       "pid":17,
@@ -158,7 +158,7 @@
       "price":2999,
       "click":8,
       "detailImage":["src/images/p17-1.png","src/images/p17-2.png","src/images/p17-3.png"],
-      "stock":999
+      "stock":87
     },
     {
       "pid":18,
@@ -167,7 +167,7 @@
       "price":2999,
       "click":28,
       "detailImage":["src/images/p18-1.png","src/images/p18-2.png","src/images/p18-3.png"],
-      "stock":999
+      "stock":33
     },
     {
       "pid":19,
@@ -176,7 +176,7 @@
       "price":1314,
       "click":8,
       "detailImage":["src/images/p19-1.png","src/images/p19-2.png","src/images/p19-3.png"],
-      "stock":999
+      "stock":56
     },
     {
       "pid":20,
@@ -185,7 +185,7 @@
       "price":1999,
       "click":8,
       "detailImage":["src/images/p20-1.png","src/images/p20-2.png","src/images/p20-3.png"],
-      "stock":999
+      "stock":35
     },
     {
       "pid":21,
@@ -194,7 +194,7 @@
       "price":1999,
       "click":8,
       "detailImage":["src/images/p21-1.png","src/images/p21-2.png","src/images/p21-3.png"],
-      "stock":999
+      "stock":88
     },
     {
       "pid":22,
@@ -203,7 +203,7 @@
       "price":2399,
       "click":8,
       "detailImage":["src/images/p22-1.png","src/images/p22-2.png","src/images/p22-3.png"],
-      "stock":999
+      "stock":76
     },
     {
       "pid":23,
@@ -212,7 +212,7 @@
       "price":1999,
       "click":8,
       "detailImage":["src/images/p23-1.png","src/images/p23-2.png","src/images/p23-3.png"],
-      "stock":999
+      "stock":32
     },
     {
       "pid":24,
@@ -222,7 +222,7 @@
       "click":5,
       "click":7,
       "detailImage":["src/images/p24-1.png","src/images/p24-2.png","src/images/p24-3.png"],
-      "stock":999
+      "stock":56
     },
     {
       "pid":25,
@@ -231,7 +231,7 @@
       "price":2999,
       "click":13,
       "detailImage":["src/images/p25-1.png","src/images/p25-2.png","src/images/p25-3.png"],
-      "stock":999
+      "stock":4
     },
     {
       "pid":26,
@@ -240,7 +240,7 @@
       "price":2999,
       "click":3,
       "detailImage":["src/images/p26-1.png","src/images/p26-2.png","src/images/p26-3.png"],
-      "stock":999
+      "stock":9
     },
     {
       "pid":27,
@@ -249,7 +249,7 @@
       "price":7999,
       "click":3,
       "detailImage":["src/images/p27-1.png","src/images/p27-2.png"],
-      "stock":999
+      "stock":43
     },
     {
       "pid":28,
@@ -258,7 +258,7 @@
       "price":12999,
       "click":3,
       "detailImage":["src/images/p28-1.png","src/images/p28-2.png","src/images/p28-3.png"],
-      "stock":999
+      "stock":58
     },
     {
       "pid":29,
@@ -267,7 +267,7 @@
       "price":3999,
       "click":3,
       "detailImage":["src/images/p29-1.png","src/images/p29-2.png","src/images/p29-3.png"],
-      "stock":999
+      "stock":32
     },
     {
       "pid":30,
@@ -276,7 +276,7 @@
       "price":3999,
       "click":3,
       "detailImage":["src/images/p30-1.png","src/images/p30-2.png","src/images/p30-3.png"],
-      "stock":999
+      "stock":18
     },
     {
       "pid":31,
@@ -285,7 +285,7 @@
       "price":1520,
       "click":17,
       "detailImage":["src/images/p31-1.png","src/images/p31-2.png","src/images/p31-3.png"],
-      "stock":999
+      "stock":22
     },
     {
       "pid":32,
@@ -294,7 +294,7 @@
       "price":1520,
       "click":7,
       "detailImage":["src/images/p32-1.png","src/images/p32-2.png","src/images/p32-3.png"],
-      "stock":999
+      "stock":45
     },
     {
       "pid":33,
@@ -303,7 +303,7 @@
       "price":1314,
       "click":7,
       "detailImage":["src/images/p33-1.png","src/images/p33-2.png"],
-      "stock":999
+      "stock":57
     },
     {
       "pid":34,
@@ -312,7 +312,7 @@
       "price":1314,
       "click":7,
       "detailImage":["src/images/p34-1.png","src/images/p34-2.png"],
-      "stock":999
+      "stock":62
     },
     {
       "pid":35,
@@ -321,7 +321,7 @@
       "price":1999,
       "click":7,
       "detailImage":["src/images/p35-1.png","src/images/p35-2.png"],
-      "stock":999
+      "stock":33
     },
     {
       "pid":36,
@@ -330,7 +330,7 @@
       "price":1999,
       "click":7,
       "detailImage":["src/images/p36-1.png","src/images/p36-2.png"],
-      "stock":999
+      "stock":45
     },
     {
       "pid":37,
@@ -339,7 +339,7 @@
       "price":1999,
       "click":6,
       "detailImage":["src/images/p37-1.png","src/images/p37-2.png","src/images/p37-3.png"],
-      "stock":999
+      "stock":67
     },
     {
       "pid":38,
@@ -348,7 +348,7 @@
       "price":1999,
       "click":16,
       "detailImage":["src/images/p38-1.png","src/images/p38-2.png","src/images/p38-3.png"],
-      "stock":999
+      "stock":41
     },
     {
       "pid":39,
@@ -357,7 +357,7 @@
       "price":1314,
       "click":6,
       "detailImage":["src/images/p39-1.png","src/images/p39-2.png","src/images/p39-3.png"],
-      "stock":999
+      "stock":87
     },
     {
       "pid":40,
@@ -366,7 +366,7 @@
       "price":999,
       "click":6,
       "detailImage":["src/images/p40-1.png","src/images/p40-2.png"],
-      "stock":999
+      "stock":54
     }
   ]
 }

@@ -10,12 +10,21 @@
     import mui from '../../lib/mui/js/mui.js'
     export default {
         mounted:function(){
-            mui(".mui-numbox").numbox()
+            mui(".mui-numbox").numbox();
+            console.log(this.maxNumber)
+        },
+        props:["maxNumber"],
+        watch:{
+            //属性监听
+            "maxNumber":function(newVal,oldVal){
+                mui(".mui-numbox").numbox().setOption('max',newVal);
+            }
         },
         methods:{
             countChanged:function(){
                 this.$emit("getCount",parseInt(this.$refs.numBox.value))
             }
+
         }
     }
 </script>
