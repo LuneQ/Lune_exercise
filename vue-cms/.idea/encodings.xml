@@ -13,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/src/components/tabbar/HomeContainer.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/components/tabbar/MemberContainer.vue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/components/tabbar/SearchContainer.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/data/cart.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/data/imageType.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/data/product.json" charset="UTF-8" />
   </component>

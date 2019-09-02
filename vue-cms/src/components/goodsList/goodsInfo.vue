@@ -74,11 +74,15 @@
                         //console.log(item);
                         this.detailImg.push({"url":item})
                     })
-                    console.log(this.detailImg)
+                    //console.log(this.detailImg)
                 })
             },
             addCart:function(){
                 this.ballFlag = !this.ballFlag
+                //购物车：商品id,价格，数量，是否被选中
+                //拼接出一个，要保存到store 中cart 数组里的商品信息对象
+                var goodsInfo = {pid:this.$route.params.pid,name:this.msg.name,src:this.msg.url,price:this.msg.price,count:this.selectedCount,selected:false}
+                this.$store.commit('addToCart',goodsInfo)
             },
             beforeEnter:function(el){
                 el.style.transform = "translate(0,0)"

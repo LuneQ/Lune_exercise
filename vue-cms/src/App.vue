@@ -22,7 +22,7 @@
                 <span class="mui-tab-label">会员</span>
             </router-link>
             <router-link class="mui-tab-item-app" to="/cart">
-                <span class="mui-icon mui-icon-extra mui-icon-extra-cart"><span class="mui-badge" id="badge">0</span></span>
+                <span class="mui-icon mui-icon-extra mui-icon-extra-cart"><span class="mui-badge" id="badge">{{$store.getters.getAllCount}}</span></span>
                 <span class="mui-tab-label">购物车</span>
             </router-link>
             <router-link class="mui-tab-item-app" to="/search">
@@ -35,7 +35,6 @@
 
 <script>
     export default{
-
         methods:{
             goPrevious:function(){
                 this.$router.go(-1)
