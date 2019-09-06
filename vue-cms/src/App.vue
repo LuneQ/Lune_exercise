@@ -2,7 +2,7 @@
     <div class="app-container">
         <!--header区域-->
         <mt-header fixed title="Welcome to RoseOnly">
-            <div slot="left" @click="goPrevious">
+            <div slot="left" @click="goPrevious" v-show="flag">
                 <mt-button icon="back">返回</mt-button>
             </div>
         </mt-header>
@@ -35,9 +35,31 @@
 
 <script>
     export default{
+        data:function(){
+            return {
+                flag:false
+            }
+        },
+        created:function(){
+            if(this.$route.path == '/home'){
+                this.flag = false
+            }else{
+                this.flag = true
+            }
+        },
         methods:{
             goPrevious:function(){
-                this.$router.go(-1)
+                this.$router.go(-1);
+
+            }
+        },
+        watch:{
+            "$route.path":function(newVal){
+                if(newVal == '/home'){
+                    this.flag = false
+                }else{
+                    this.flag = true
+                }
             }
         }
     }

@@ -67,6 +67,36 @@ var store = new Vuex.Store({
 
             //当更新cart之后，把cart数组存储到本地的 localStorge 中
             localStorage.setItem('cart',JSON.stringify(state.cart))
+        },
+        updateGoodsInfo:function(state,goodsInfo){
+            state.cart.some(item=>{
+                if(item.pid == goodsInfo.pid){
+                    item.count = parseInt(goodsInfo.count)
+                    return true
+                }
+            })
+            //当更新cart之后，把最新的cart数组存储到本地的 localStorge 中
+            localStorage.setItem('cart',JSON.stringify(state.cart))
+        },
+        removeFromCart:function(state,pid){
+            state.cart.some((item,i)=>{
+                if(item.pid == pid){
+                    state.cart.splice(i,1)
+                    return true
+                }
+            })
+            //当更新cart之后，把最新的cart数组存储到本地的 localStorge 中
+            localStorage.setItem('cart',JSON.stringify(state.cart))
+        },
+        updateSelectedStatus:function(state,info){
+            state.cart.some((item,i)=>{
+                if (item.pid == info.pid){
+                    item.selected = info.selected
+                    return true;
+                }
+            })
+            //当更新cart之后，把最新的cart数组存储到本地的 localStorge 中
+            localStorage.setItem('cart',JSON.stringify(state.cart))
         }
     },
     getters:{
@@ -76,6 +106,33 @@ var store = new Vuex.Store({
                 sum += parseInt(item.count)
             })
             return sum
+        },
+        getGoodsCount:function(state){
+            var o = {};
+            state.cart.forEach(item=>{
+                o[item.pid] = item.count
+            })
+            return o;
+        },
+        getGoodsSelectedStatus:function(state){
+            var o = {}
+            state.cart.forEach(item=>{
+                o[item.pid] = item.selected;
+            })
+            return o;
+        },
+        getSelectedCountandMoney:function(state){
+            var o = {
+                count:0,
+                total:0
+            }
+            state.cart.forEach(item=>{
+                if(item.selected){
+                    o.count += parseInt(item.count);
+                    o.total += parseInt(item.count)*parseInt(item.price)
+                }
+            })
+            return o;
         }
     }
 })

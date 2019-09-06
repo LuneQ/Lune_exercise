@@ -81,7 +81,7 @@
                 this.ballFlag = !this.ballFlag
                 //购物车：商品id,价格，数量，是否被选中
                 //拼接出一个，要保存到store 中cart 数组里的商品信息对象
-                var goodsInfo = {pid:this.$route.params.pid,name:this.msg.name,src:this.msg.url,price:this.msg.price,count:this.selectedCount,selected:false}
+                var goodsInfo = {pid:this.$route.params.pid,name:this.msg.name,src:this.msg.url,price:this.msg.price,count:this.selectedCount,selected:true}
                 this.$store.commit('addToCart',goodsInfo)
             },
             beforeEnter:function(el){
